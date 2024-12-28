@@ -1,0 +1,203 @@
+* {
+    /*全局选择器*/
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /*主体*/
+    color: rgb(0, 0, 0);
+    font-family: 楷体;
+    background-color: rgb(218, 202, 202);
+}
+
+.header {
+    /*头部*/
+    width: 100%;
+    height: 150px;
+}
+
+#hi1 {
+    /*头部图片*/
+    width: 100%;
+    height: 150px;
+}
+
+.dh ul {
+    /*导航栏*/
+    margin-bottom: 30px;
+    padding: 0px;
+    width: 1539px;
+    height: 30px;
+}
+
+.dh ul li {
+    /*导航栏链接*/
+    height: 30px;
+    width: 16.45%;
+    list-style: none;
+    float: left;
+    display: inline;
+    font: 0.9em;
+}
+
+.dh ul li a {
+    /*导航栏超链接*/
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: larger;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(87, 156, 241);
+    line-height: 40px;
+    border-bottom: 1px solid rgb(168, 164, 172);
+}
+
+.dh ul li a:hover {
+    /*鼠标划过时*/
+    color: rgb(0, 0, 0);
+    background-color: rgb(37, 84, 155);
+    border-bottom: 3px solid rgb(16, 4, 28);
+}
+
+.footer {
+    /*尾部*/
+    margin-top: 10px;
+    clear: both;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(87, 156, 241);
+    color: rgb(28, 41, 99);
+    font: italic 14px/20px 宋体;
+    text-align: center;
+}
+
+.footer p {
+    /*尾部段落*/
+    margin-top: 10px;
+}
+
+#fi1 {
+    /*尾部图片*/
+    width: 100px;
+    height: 70px;
+    float: right;
+    padding: 0px;
+}
+
+#zhuti {
+    /*主体*/
+    margin: 10px 300px 0px 300px;
+    background-color: blueviolet;
+
+}
+
+#left {
+    /*左边div设置*/
+    width: 28.5%;
+    padding: 5px;
+    height: 600px;
+    float: left;
+    background-color: rgb(218, 202, 202);
+
+}
+
+#geqian h2 {
+    /*个签*/
+    margin: 30px 0px 0px 0px;
+    padding: 10px;
+    height: 100px;
+}
+
+#right {
+    /*右边*/
+    width: 60%;
+    height: 565px;
+    background-color: rgb(218, 202, 202);
+    float: left;
+    border: 0px double rgb(64, 151, 120);
+    margin: 20px 0px 50px 50px;
+    /*外边距*/
+    box-shadow: 20px 20px 25px 10px #242443;
+    /*阴影*/
+    border-radius: 100px;
+    /*弧度设置*/
+}
+
+#shijian {
+    /*时间*/
+    text-align: center;/*文本居中*/
+    margin: 90px 0px 0px 0px;
+    height: 150px;
+}
+
+#ri {
+    /*日*/
+    font-size: 45px;
+    margin: 0px 0px 5px 0px;
+}
+
+#nianyue {
+    /*年月*/
+    font-size: 20px;
+}
+
+#tt {
+    /*几点*/
+    margin-top: 5px;
+}
+
+table {
+    /*表格*/
+    border-color: rgb(64, 151, 120);
+}
+
+#xinxi {
+    /*信息*/
+    height: 200px;
+}
+
+#zhan1 {
+    /*右边标题*/
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+}
+
+#zhan2 {
+    /*右边内容设置*/
+    font-size: large;
+    width: 60%;
+    margin: 40px 10px 0px 70px;
+}
+
+#zhan2 ul li {
+    /*右边列表设置*/
+    height: 30px;
+    font: 0.9em;
+}
+
+#tuijian {
+    /*推荐设置*/
+    margin: 10px 0px 0px 30px;
+}
+
+#shu {
+    /*书设置*/
+    margin-left: 30px;
+}
+
+#zong {
+    /*综艺设置*/
+    margin-top: 80px;
+}
+
+#zongyi {
+    /*综艺设置*/
+    margin: 10px 0px 0px 30px;
+}
+
+#qita {
+    /*其他*/
+    margin-top: 250px;
+}
